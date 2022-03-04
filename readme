@@ -1,0 +1,20 @@
+                                 mid-crack-code
+
+code for generating and compressing mid-crack chain codes.
+
+the compression and decompression is made using the lzw lossless compression
+algorithm.
+
+usage:
+
+  ./mid-crack-code [option] [input_file] [output_file]
+
+options:
+
+  -m : generate a mid-crack chain code from a '.bmp' image file
+
+  -i : generate a '.bmp' image file from a mid-crack chain code
+
+  -c : compress a mid-crack chain code
+
+  -d : decompress a mid-crack chain code
